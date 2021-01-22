@@ -137,6 +137,7 @@ Logcat &amp; Lifecycle
                  super.onCreate(savedInstanceState)
                  Timber.i("onCreate Phase now!")
                  
+                 // see Anroid_Review_7 to code data class to replace this passing class instance
                  kClassInstance = KClass(param)
                  
                  binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
