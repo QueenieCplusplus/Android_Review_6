@@ -131,14 +131,15 @@ Logcat &amp; Lifecycle
        class MainActivity: AppCompatActivity(){
        
             override fun onCreate(savedInstanceState: Bundle?){
+            
                  super.onCreate(savedInstanceState)
                  Timber.i("onCreate Phase now!")
                  
                  kClassInstance = KClass(param)
                  
+                 binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+                 
             }
-       
-       
        
        }
        
