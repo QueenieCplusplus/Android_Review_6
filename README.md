@@ -64,7 +64,23 @@ Logcat &amp; Lifecycle
 
 4. define resorces in app/src/main/res/drawable.
 
-5. source line of code.
+5. design menu resource.
+
+       // go to app/src/main/res/menu
+       // main_menu.xml
+       
+       <?xml encoding="utf-8">
+       <menu>
+          <item
+              android:id="@+id/shareMenuButton"
+              android:icon="?android:attr/actionModeShareDrawable"
+              android:visible="true"
+              andrdoid:enable="true"
+              android:showAsAction="ifRoom"
+          />
+       </menu>
+
+6. source line of code.
 
        package com.example.android.katesapp
        
