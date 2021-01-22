@@ -1,7 +1,28 @@
 # Android_Review_6
 Logcat &amp; Lifecycle
 
-1. design layout with UI element. And add on Guideline to make a space between ImageView & ImageButton.
+1. Lifecycle in Android System.
+
+       onCreate(savedInstanceState: Bundle?)
+       
+       onStart()
+       
+       onResume()
+       
+       onPause()
+       
+       onStop()
+       
+       onDestroy()
+       
+       onRestart()
+       
+       // called when the user navigates away from the app but might come back 
+       onSaveInstanceSate(outSate: Bundle){
+              super.onSaveInstanceStae(outState)
+       }
+
+2. design layout with UI element. And add on Guideline to make a space between ImageView & ImageButton.
 
        //activity_main.xml
        
@@ -38,7 +59,7 @@ Logcat &amp; Lifecycle
        
        </layout>
        
-2. define dimens.
+3. define dimens.
 
           // go to app/src/main/res/values/dimens.xml
           
@@ -48,7 +69,7 @@ Logcat &amp; Lifecycle
               <dimen name="default_spacing"> 16dp </dimen>
           </resources>
 
-3. define customed color.
+4. define customed color.
 
            // go to app/src/main/res/values/colors.xml
            
@@ -62,9 +83,9 @@ Logcat &amp; Lifecycle
               
            </resources>
 
-4. define resorces in app/src/main/res/drawable.
+5. define resorces in app/src/main/res/drawable.
 
-5. design menu resource.
+6. design menu resource.
 
        // go to app/src/main/res/menu
        // main_menu.xml
@@ -80,7 +101,7 @@ Logcat &amp; Lifecycle
           />
        </menu>
 
-6. source line of code.
+7. source line of code.
 
        package com.example.android.katesapp
        
