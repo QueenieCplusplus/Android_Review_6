@@ -133,6 +133,9 @@ Logcat &amp; Lifecycle
             override fun onCreate(savedInstanceState: Bundle?){
                  super.onCreate(savedInstanceState)
                  Timber.i("onCreate Phase now!")
+                 
+                 kClassInstance = KClass(param)
+                 
             }
        
        
