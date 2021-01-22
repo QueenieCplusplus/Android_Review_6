@@ -17,15 +17,19 @@ Logcat &amp; Lifecycle
            >
            
            <ImageView
-             android:id=""
+             android:id="img"
              android:scaleType="centerCrop"
              android:srcCompat="@drawable/aaa"
            />
            
-           
+           <androidx.constraintlayout.widget.Guideline
+              android:id="@+id/ggg"
+              android:orientation=""
+              app:layout_constaintGuide_end="@dimen/default_spacing"
+           />
            
            <ImageButton
-              android:id=""
+              android:id="imgB"
               android:scaleType="centerCrop"
               tools:src="@drawable/bbb"
            />
