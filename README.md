@@ -128,6 +128,12 @@ Logcat &amp; Lifecycle
        [Toast module]
        // TODO
        
+       class MainActivity: AppCompatActivity(){
+       
+       
+       
+       }
+       
 
 
    
