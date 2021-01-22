@@ -63,3 +63,8 @@ Logcat &amp; Lifecycle
            </resources>
 
 4. define resorces in app/src/main/res/drawable.
+
+5. source line of code.
+
+
+   
