@@ -3,7 +3,9 @@ Logcat &amp; Lifecycle
 
 1. Lifecycle in Android System.
 
-       onCreate(savedInstanceState: Bundle?)
+       onCreate(savedInstanceState: Bundle?){
+              super.onCreate(saveInstanceSate)
+       }
        
        onStart()
        
