@@ -47,3 +47,17 @@ Logcat &amp; Lifecycle
           <resources>
               <dimen name="default_spacing"> 16dp </dimen>
           </resources>
+
+3. define customed color.
+
+           // go to app/src/main/res/values/colors.xml
+           
+           <?xml encoding="utf-8"?>
+           
+           <resources>
+           
+              <color name="white">#ffffff</color>
+              <color name="green">#6ab343</color>
+              <color name="grey">#99000000</color>
+              
+           </resources>
