@@ -61,3 +61,5 @@ Logcat &amp; Lifecycle
               <color name="grey">#99000000</color>
               
            </resources>
+
+4. define resorces in app/src/main/res/drawable.
