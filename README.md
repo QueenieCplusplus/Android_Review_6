@@ -66,5 +66,25 @@ Logcat &amp; Lifecycle
 
 5. source line of code.
 
+       package com.example.android.katesapp
+       
+       [default module]
+       import android.os.bundle
+       import androidx.appcompat.app.AppCompatActivity
+       
+       [databind module]
+       import androidx.databinding.DataBindingUtil
+       import com.example.android.katesapp.databinding.ActivityMainBinding
+       
+       [system error handler module]
+       import android.content.ActivityNotFoundException
+       
+       [log module]
+       // TODO
+       
+       [menu midule]
+       // TODO
+       
+
 
    
