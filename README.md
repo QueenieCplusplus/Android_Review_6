@@ -139,6 +139,21 @@ Logcat &amp; Lifecycle
                  
                  binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
                  
+                 // to add param as imageID
+                 binding.imgB.setImageResource()
+                 
+                 binding.imgB.setOnClickListener {
+                     clickHandler()
+                 }
+                 
+            }
+            
+            private fun clickHandler(){
+                 
+                 // TODO
+                 // to update the Image Resource
+                 binding.img = // TODO
+                 
             }
        
        }
