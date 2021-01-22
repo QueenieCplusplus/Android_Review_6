@@ -16,6 +16,10 @@ Logcat &amp; Lifecycle
               tools:context=".MainActivity"
            >
            
+           <ImageView/>
+           
+           <ImageButton/>
+           
            </androidx.constraintlayout.widget.ConstraintLayout>
        
        </layout>
