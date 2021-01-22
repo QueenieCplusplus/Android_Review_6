@@ -1,7 +1,7 @@
 # Android_Review_6
 Logcat &amp; Lifecycle
 
-1. design layout with UI element.
+1. design layout with UI element. And add on Guideline to make a space between ImageView & ImageButton.
 
        //activity_main.xml
        
@@ -16,9 +16,19 @@ Logcat &amp; Lifecycle
               tools:context=".MainActivity"
            >
            
-           <ImageView/>
+           <ImageView
+             android:id=""
+             android:scaleType="centerCrop"
+             android:srcCompat="@drawable/aaa"
+           />
            
-           <ImageButton/>
+           
+           
+           <ImageButton
+              android:id=""
+              android:scaleType="centerCrop"
+              tools:src="@drawable/bbb"
+           />
            
            </androidx.constraintlayout.widget.ConstraintLayout>
        
