@@ -38,4 +38,12 @@ Logcat &amp; Lifecycle
        
        </layout>
        
-       
+2. define dimens.
+
+          // go to app/src/main/res/values/dimens.xml
+          
+          <?xml encoding="utf-8"?>
+          
+          <resources>
+              <dimen name="default_spacing"> 16dp </dimen>
+          </resources>
