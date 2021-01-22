@@ -4,7 +4,7 @@ Logcat &amp; Lifecycle
 1. Lifecycle in Android System.
 
        onCreate(savedInstanceState: Bundle?){
-              super.onCreate(saveInstanceSate)
+          super.onCreate(saveInstanceSate)
        }
        
        onStart()
@@ -21,7 +21,7 @@ Logcat &amp; Lifecycle
        
        // called when the user navigates away from the app but might come back 
        onSaveInstanceSate(outSate: Bundle){
-              super.onSaveInstanceStae(outState)
+           super.onSaveInstanceStae(outState)
        }
 
 2. design layout with UI element. And add on Guideline to make a space between ImageView & ImageButton.
