@@ -119,9 +119,13 @@ Logcat &amp; Lifecycle
        import android.content.ActivityNotFoundException
        
        [log module]
+       import timber.log.Timber
+       import android.util.Log
+       
+       [menu module]
        // TODO
        
-       [menu midule]
+       [Toast module]
        // TODO
        
 
