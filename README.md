@@ -161,6 +161,8 @@ Logcat &amp; Lifecycle
        
        }
        
+8. android's tip (LifeCycle)
 
+   https://developer.android.com/topic/libraries/architecture/lifecycle
 
    
